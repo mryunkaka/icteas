@@ -1,0 +1,38 @@
+INFO - 2023-10-23 11:07:10 --> REDIRECTED ROUTE at http://localhost:8080/home
+INFO - 2023-10-23 11:07:13 --> REDIRECTED ROUTE at http://localhost:8080/home
+INFO - 2023-10-23 11:13:23 --> REDIRECTED ROUTE at http://localhost:8080/home
+INFO - 2023-10-23 11:15:12 --> REDIRECTED ROUTE at http://localhost:8080/gawe
+INFO - 2023-10-23 11:15:20 --> REDIRECTED ROUTE at http://localhost:8080/gawe
+INFO - 2023-10-23 11:15:22 --> REDIRECTED ROUTE at http://localhost:8080/gawe
+INFO - 2023-10-23 11:15:24 --> REDIRECTED ROUTE at http://localhost:8080/gawe
+INFO - 2023-10-23 11:15:39 --> REDIRECTED ROUTE at http://localhost:8080/Home
+INFO - 2023-10-23 11:21:26 --> REDIRECTED ROUTE at http://localhost:8080/welcome_message
+CRITICAL - 2023-10-23 11:26:28 --> The route for "home" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('home')
+ 2 APPPATH\Config\Routes.php(11): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\yuknikah\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yuknikah\\public\\index.php')
+CRITICAL - 2023-10-23 11:29:47 --> Too few arguments to function CodeIgniter\Router\RouteCollection::addRedirect(), 1 passed in C:\xampp\htdocs\yuknikah\app\Config\Routes.php on line 10 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 680.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->addRedirect('home')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\yuknikah\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yuknikah\\public\\index.php')
+CRITICAL - 2023-10-23 11:29:48 --> Too few arguments to function CodeIgniter\Router\RouteCollection::addRedirect(), 1 passed in C:\xampp\htdocs\yuknikah\app\Config\Routes.php on line 10 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 680.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->addRedirect('home')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\yuknikah\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\yuknikah\\public\\index.php')
+INFO - 2023-10-23 23:40:51 --> REDIRECTED ROUTE at http://localhost:8080/home
